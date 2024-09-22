@@ -1,0 +1,6 @@
+#append method...(write a pythonn programme to append text to a file and display the text)
+f1=open("demo3.text","r+")
+f1.write("I AM SOFTWARE DEVLOPER")
+s=f1.read()
+print(s)
+f1.close()
